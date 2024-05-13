@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCP2</title>
+    <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!--CSS Custom-->
+  <link rel="stylesheet" herf="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <img src="assets/logo.jpg" class="" width="65" height="55"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Selamat Datang Ditoko Bunga Kami</h2>
+            <p>Kami menawarkan berbagai jenis bunga segar dengan kualitas terbaik dan harga terjangkau. Dengan pilihan bunga yang luas, Anda dapat menemukan bunga yang cocok untuk setiap momen spesial dalam hidup Anda.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/macam bunga.jpg" class="img-fluid" alt="Bunga">
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col">
+            <h2>Produk Kami</h2>
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Jenis Bunga 1
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Bunga Mawar merah yang kelopaknya berwarna merah dan bagian batangnya berduri tajam. Bagian tepi daunnya bergerigi,
+                    sehingga menghasilkan tekstur yang kasar jika disentuh.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Jenis Bunga 2
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Bunga Tulip adalah bunga dengan aneka warna-warni, yang meliputi wrna merah, putih, ungu, jingga, kuning, dan sebagainya.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Jenis Bunga 3
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Bunga Matahari adalah tanaman berbunga yang mekar secara periodik atau musiman. Batang tunggal, tebal, tegak, dan tidak bercabang. Daun hijau tua yang lebar dan besar.
+                    Tangkai yang tinggi, kelopak bunga majemuk, dan biji yang sangat banyak dalam bunga.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Products Section-->
+      <section id="products" class="products-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 style="text-transform: uppercase;font-weight: bold;">Featured Products</h2>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <img src="assets/mawar merah.jpg" alt="Jenis Bunga" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Mawar Merah</h5>
+                  <p class="card-text">Rp 50.000</p>
+                  <a href="#" class="btn btn-primary">Checkout</a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="assets/Tulip.jpg" alt="Jenis Bunga" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Tulip</h5>
+                    <p class="card-text">Rp 100.000</p>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="assets/Matahari.jpg" alt="Jenis Bunga" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Matahari</h5>
+                      <p class="card-text">Rp 200.000</p>
+                      <a href="#" class="btn btn-primary">Checkout</a>
+                    </div>
+                  </div>
+               </div>
+          </div>
+        </div>
+      </section>
+
+  <!--JS Boostrap-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    function myFunction() {
+        alert("Hello World!")
+    }
+    function displayDateTime() {
+        var currentDate = new Date();
+        var dateElement = document.getElementById("date");
+        dateElement.textContent = "Date :" + currentDate.toLocaleDateString() + " Time: " + currentDate.toLocaleTimeString();
+    }
+    setInterval(displayDateTime, 1000);
+  </script>
+  <p id="date"></p>
+  <script src=" main.js"></script>
+</body>
+</html>
